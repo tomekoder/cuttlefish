@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Cuttlefish</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <!--
@@ -9,15 +9,86 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font family end -->
     <script type="module" src="script.js"></script>
   </head>
   <body>
+   <header>
+    <!-- navigation text functions as navigtion links to help navigate the page using the bookmarks technique-->
+    <!-- q: hvordan få header til å være konsistant på siden?-->
+    <div class="headerText">
+      <div class="headerTextTitle">
+        <h1>Cuttlefish</h1>
+      </div>
+    
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+      <ul>
+        <a href="#section1">
+          <li>What are they?</li>
+        </a>
+
+        <a href="#section2">
+          <li>section 2</li>
+        </a>
+
+        <a href="#section3">
+          <li>section 3</li>
+        </a>
+
+        <a href="#section4">
+          <li>section 4</li>
+        </a>
+
+      </ul>
+    
     </nav>
+  </div>
+   </header>
     <main>
-      <h1>Home page</h1>
+      <!-- first section is displayed text to the left and image to the right-->
+      <section id="section1" class="firstSection">
+        <div class="sectionText">
+          <h1>overskrift</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <img class="sectionImg" src="assets/cuttlefish1.jpg" alt="placeholder">
+      </section>
+      
+      <!-- second section is dislayed image to the left and text to the right-->
+      <section id="section2" class="secondSection">
+        <img class="sectionImg" src="assets/cuttlefish2.jpg" alt="placeholder">
+        <div class="sectionText">
+          <h2>overskrift</h2>
+          <ol>
+            <li>nummer 1</li>
+            <li>nummer 2</li>
+            <li>nummer 3</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- third section is displayed text to the left and image to the right-->
+      <section id="section3" class="thirdSection">
+        <div class="sectionText">
+          <h2>overskrift</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <img class="sectionImg" src="assets/cuttlefish3.jpg" alt="placeholder">
+      </section>
+
+      <section id="section4" class="fourthSection">
+        <img class="sectionImg" src="assets/bone.jpg" alt="placeholder">
+        <div class="sectionText">
+          <h2>overskrift</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cumque itaque quasi sint repudiandae, vero repellat amet aperiam iure labore voluptates quo obcaecati ad, quia asperiores aliquam minima voluptas voluptatibus.</p>
+        </div>
+      
+      </section>
     </main>
   </body>
 </html>
