@@ -18,6 +18,10 @@ header {
 
 }
 
+.headerTextTitle {
+  font-family: "Rubik Iso", sans-serif;
+}
+
 
 
 @media (min-width: 426px) {
@@ -29,6 +33,7 @@ header {
 }
 
 }
+
 
 ul {
   display: flex;
@@ -83,12 +88,14 @@ section {
   width: 40%;
 }
 
+
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(203, 203, 241);
   max-height: 5vh;
+
 
 }
 
