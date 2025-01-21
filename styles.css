@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  border-bottom: 4px solid rgb(24, 24, 79);
+  border-bottom: 5px solid rgb(24, 24, 79);
   position: sticky;
   top: 0;
   overflow: hidden;
@@ -111,6 +111,17 @@ footer {
     display: flex;
     justify-content: center;
   
+  }
+  section {
+    flex-direction: column;
+  
+  }
+  .sectionText {
+    width: 80%;
+
+  }
+  .sectionImg {
+    width: 80%;
   }
 
   /* background image maybe?*/
